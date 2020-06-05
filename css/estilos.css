@@ -1,0 +1,115 @@
+body{
+	background: #E5EFF1;
+}
+
+#recibeImagen{
+position: relative;
+margin: auto;
+width: 400px;
+height: 200px;
+border-style: dashed;
+border-color: lightblue;
+}
+#recibeImagen h5{
+	color: gray;
+	position: absolute;
+	font-weight: bold;
+	top: 80px;
+	left:  90px;
+}
+
+
+#recibeImagen2{
+position: relative;
+margin: auto;
+width: 200px;
+height: 200px;
+border-style: dashed;
+border-color: lightblue;
+}
+
+img{
+	cursor: pointer;
+}
+
+
+.alert{
+	border-style: dashed;
+	border-width: thick;
+}
+#controlImagen{
+	display: none;
+}
+
+
+.remove2{
+	display: none;
+
+}
+.remove{
+	display: block;
+}
+
+#previa{
+	display: none;
+}
+
+#uploadImage{
+	display: none;
+}
+
+#uploadImage2{
+	display: none;
+}
+
+#shareImg2{
+	display: none;
+}
+
+
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: lightblue;
+  }
+#recibeImagen {
+	display: none;
+}
+
+#shareImg2{
+	display:block;
+}
+
+#shareImg{
+	display: none;
+}
+
+#uploadImage{
+	display: block;
+}
+#uploadImage2{
+	display: block;
+}
+
+.remove{
+	display: none;
+}
+.remove2{
+	display: block;
+}
+#previa{
+	display: block;
+}
+
+
+
+#recibeImagen2{
+	display: none;
+}
+
+#form29{
+	display: none;
+}
+#controlImagen{
+	display: block;
+}
+}

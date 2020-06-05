@@ -1,0 +1,4 @@
+dbname : teacher
+username:  root
+
+password: %Xl<2yw$E6MV}&qC
